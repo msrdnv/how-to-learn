@@ -151,7 +151,6 @@
 
 .table {
   padding: 0;
-  margin: 0;
   list-style-type: none;
   display: flex;
   flex-flow: row wrap;
@@ -162,7 +161,6 @@
 
 .table_theme_dark {
   padding: 0;
-  margin: 0;
   list-style-type: none;
   margin: 0 auto 90px;
 }
