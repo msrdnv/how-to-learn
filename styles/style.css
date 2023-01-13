@@ -19,6 +19,8 @@
 }
 
 .header__title {
+  margin: 0;
+  padding: 0;
   width: 730px;
   margin: auto auto auto 64px;
   z-index: 1;
@@ -87,7 +89,7 @@
 
 .two-columns {
   display: flex;
-  margin: 100px auto;
+  margin: 100px auto 0;
   width: 80%;
   justify-content: space-between;
   border: 1px solid red;
@@ -115,6 +117,7 @@
 
 .two-columns__paragraph {
   margin: 0;
+  padding: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -125,6 +128,64 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
+}
+
+.digits {
+  border: 1px solid red;
+}
+
+.section-title {
+  width: 60%;
+  margin: 100px auto 20px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  border: 1px solid red;
+}
+
+.section-subtitle {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  border: 1px solid red;
+}
+
+.table {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 0 auto 100px;
+  border: 1px solid red;
+}
+
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+  border: 1px solid red;
+}
+
+.table__heading {
+  margin: 0;
+  padding: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  border: 1px solid red;
+}
+
+.table__text {
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  border: 1px solid red;
 }
 
 /* и элемента с модификатором вида ключ-значение */
